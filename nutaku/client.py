@@ -4,7 +4,6 @@ import datetime
 import json
 import urllib.parse
 
-
 class BustyBizClient:
     def __init__(self, nutaku_id: int, client_version: str) -> None:
         '''Last edit at: 20.08.2024\n
@@ -70,18 +69,12 @@ class BustyBizClient:
 
         if len(problematic_towers) > 0:
             print(f"⚠️  DETECTED PROBLEMATIC TOWERS: {problematic_towers}")
-            # print("Trying to fix...")
-            # for tower_id in problematic_towers:
-            #    self._enter_tower(tower_id, try_fix_data)
-            #    self.sync_game(tower_id, try_fix_data)
 
         server_time = datetime.datetime.fromtimestamp(
             self.full_data["server_time"] - 1*24*60*60)
         dailyreward = datetime.datetime.fromtimestamp(
-            # self.game["ts_last_daily_reward_claimed"]
             self.game["ts_last_daily_reward_claimed"])
         dailyreward = dailyreward < server_time
-        # self.game["gacha"]["ts_last_free_gacha"]
 
         freegacha = datetime.datetime.fromtimestamp(
             self.game["gacha"]["ts_last_free_gacha"])
@@ -337,8 +330,8 @@ class BustyBizClient:
         if isinstance(data, str):
             print(data)
         else:
-            print(f"Collected rewards and got from tower {
-                  tower_id}:", data["reward_amount"] if data["reward_amount"] != 0 else "?")
+            print(f"Collected rewards and got from tower {tower_id}:",
+                  data["reward_amount"] if data["reward_amount"] != 0 else "?")
 
     def use_item(self, item_id: int, amount: int = 1):
         '''Last edit at: 19.08.2024\n
@@ -710,8 +703,7 @@ class BustyBizClient:
         if isinstance(data, str):
             print(data)
         else:
-            print("Account deleted, reactivation code:",
-                  data["reactivation_code"])
+            print("Account progress reseted.")
 
     def unlock_skills(self):
         '''Last edit at: 20.08.2024\n
