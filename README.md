@@ -1,6 +1,6 @@
 # cheat-nutaku-BustyBiz
 
-This project is a cheat tool for the game "BustyBiz." It provides various commands that can be executed to alter in-game resources and unlock features.
+This project is a cheat tool for the game "BustyBiz". It provides various commands that can be executed to alter in-game resources and unlock features.
 
 ## Features
 
@@ -41,4 +41,4 @@ Feel free to fork this project and submit pull requests if you have any improvem
 
 ## License
 
-The project is unlicensed
+The project is licensed under GNU General Public License v3 (file LICENSE)
