@@ -1,0 +1,601 @@
+{
+    "idle_income_per_sec": 1.27741724628083e+102,
+    "vault": {
+        "level": 3000,
+        "manager_id": 1,
+        "manager_pool": {
+        "manager_buy_index": 0,
+        "managers": [
+            {
+            "id": 1,
+            "effect_id": 9,
+            "rarity": 3,
+            "name": "Cassidy Scott",
+            "ts_last_used": 0,
+            "buy_cost": 80,
+            "hair_style_id": "hair1_blond",
+            "eyes_style_id": "eyes_purple"
+            }
+        ]
+        }
+    },
+    "elevator": {
+        "level": 3000,
+        "bank_amount": 0,
+        "manager_id": 1,
+        "manager_pool": {
+        "manager_buy_index": 0,
+        "managers": [
+            {
+            "id": 1,
+            "effect_id": 7,
+            "rarity": 3,
+            "name": "Emily Rayne",
+            "ts_last_used": 0,
+            "buy_cost": 80,
+            "hair_style_id": "hair9_white_collectible1",
+            "eyes_style_id": "eyes_black"
+            }
+        ]
+        }
+    },
+    "regions": [
+        {
+        "index": 0,
+        "ts_unlock_started": 123,
+        "ts_unlock_end": -1,
+        "ts_unlocked": 0
+        },
+        {
+        "index": 1,
+        "ts_unlock_started": 1722524570,
+        "ts_unlock_end": -1,
+        "ts_unlocked": 1722528585
+        },
+        {
+        "index": 2,
+        "ts_unlock_started": 1722528588,
+        "ts_unlock_end": -1,
+        "ts_unlocked": 1722596040
+        },
+        {
+        "index": 3,
+        "ts_unlock_started": 1722596043,
+        "ts_unlock_end": -1,
+        "ts_unlocked": 1722638588
+        },
+        {
+        "index": 4,
+        "ts_unlock_started": 1722638591,
+        "ts_unlock_end": -1,
+        "ts_unlocked": 1722723838
+        },
+        {
+        "index": 5,
+        "ts_unlock_started": 1722723843,
+        "ts_unlock_end": -1,
+        "ts_unlocked": 1722895092
+        }
+    ],
+    "floors": [
+        {
+        "index": 1,
+        "ts_unlocked": 1722516816,
+        "level": 1000,
+        "manager_id": 1,
+        "bank_amount": 0
+        },
+        {
+        "index": 2,
+        "ts_unlocked": 1722516828,
+        "level": 1000,
+        "manager_id": 2,
+        "bank_amount": 0
+        },
+        {
+        "index": 3,
+        "ts_unlocked": 1722516830,
+        "level": 1000,
+        "manager_id": 3,
+        "bank_amount": 0
+        },
+        {
+        "index": 4,
+        "ts_unlocked": 1722516829,
+        "level": 1000,
+        "manager_id": 4,
+        "bank_amount": 0
+        },
+        {
+        "index": 5,
+        "ts_unlocked": 1722516830,
+        "level": 1000,
+        "manager_id": 5,
+        "bank_amount": 0
+        },
+        {
+        "index": 6,
+        "ts_unlocked": 1722524954,
+        "level": 1000,
+        "manager_id": 6,
+        "bank_amount": 0
+        },
+        {
+        "index": 7,
+        "ts_unlocked": 1722524954,
+        "level": 1000,
+        "manager_id": 7,
+        "bank_amount": 0
+        },
+        {
+        "index": 8,
+        "ts_unlocked": 1722524954,
+        "level": 1000,
+        "manager_id": 8,
+        "bank_amount": 0
+        },
+        {
+        "index": 9,
+        "ts_unlocked": 1722524955,
+        "level": 1000,
+        "manager_id": 9,
+        "bank_amount": 0
+        },
+        {
+        "index": 10,
+        "ts_unlocked": 1722524955,
+        "level": 1000,
+        "manager_id": 10,
+        "bank_amount": 0
+        },
+        {
+        "index": 11,
+        "ts_unlocked": 1722595865,
+        "level": 1000,
+        "manager_id": 30,
+        "bank_amount": 0
+        },
+        {
+        "index": 12,
+        "ts_unlocked": 1722595865,
+        "level": 1000,
+        "manager_id": 29,
+        "bank_amount": 0
+        },
+        {
+        "index": 13,
+        "ts_unlocked": 1722595865,
+        "level": 1000,
+        "manager_id": 28,
+        "bank_amount": 0
+        },
+        {
+        "index": 14,
+        "ts_unlocked": 1722595867,
+        "level": 1000,
+        "manager_id": 27,
+        "bank_amount": 0
+        },
+        {
+        "index": 15,
+        "ts_unlocked": 1722595867,
+        "level": 1000,
+        "manager_id": 26,
+        "bank_amount": 0
+        },
+        {
+        "index": 16,
+        "ts_unlocked": 1722638375,
+        "level": 1000,
+        "manager_id": 25,
+        "bank_amount": 0
+        },
+        {
+        "index": 17,
+        "ts_unlocked": 1722638376,
+        "level": 1000,
+        "manager_id": 24,
+        "bank_amount": 0
+        },
+        {
+        "index": 18,
+        "ts_unlocked": 1722638377,
+        "level": 1000,
+        "manager_id": 23,
+        "bank_amount": 0
+        },
+        {
+        "index": 19,
+        "ts_unlocked": 1722638377,
+        "level": 1000,
+        "manager_id": 22,
+        "bank_amount": 0
+        },
+        {
+        "index": 20,
+        "ts_unlocked": 1722638377,
+        "level": 1000,
+        "manager_id": 21,
+        "bank_amount": 0
+        },
+        {
+        "index": 21,
+        "ts_unlocked": 1722723657,
+        "level": 1000,
+        "manager_id": 20,
+        "bank_amount": 0
+        },
+        {
+        "index": 22,
+        "ts_unlocked": 1722723658,
+        "level": 1000,
+        "manager_id": 19,
+        "bank_amount": 0
+        },
+        {
+        "index": 23,
+        "ts_unlocked": 1722723659,
+        "level": 1000,
+        "manager_id": 18,
+        "bank_amount": 0
+        },
+        {
+        "index": 24,
+        "ts_unlocked": 1722723658,
+        "level": 1000,
+        "manager_id": 17,
+        "bank_amount": 0
+        },
+        {
+        "index": 25,
+        "ts_unlocked": 1722723659,
+        "level": 1000,
+        "manager_id": 16,
+        "bank_amount": 0
+        },
+        {
+        "index": 26,
+        "ts_unlocked": 1722894120,
+        "level": 1000,
+        "manager_id": 15,
+        "bank_amount": 0
+        },
+        {
+        "index": 27,
+        "ts_unlocked": 1722894120,
+        "level": 1000,
+        "manager_id": 14,
+        "bank_amount": 0
+        },
+        {
+        "index": 28,
+        "ts_unlocked": 1722894120,
+        "level": 1000,
+        "manager_id": 13,
+        "bank_amount": 0
+        },
+        {
+        "index": 29,
+        "ts_unlocked": 1722894120,
+        "level": 1000,
+        "manager_id": 12,
+        "bank_amount": 0
+        },
+        {
+        "index": 30,
+        "ts_unlocked": 1722894120,
+        "level": 1000,
+        "manager_id": 11,
+        "bank_amount": 0
+        }
+    ],
+    "manager_pool": {
+        "manager_buy_index": 32,
+        "managers": [
+        {
+            "id": 1,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Rachel Knox",
+            "ts_last_used": 0,
+            "buy_cost": 80,
+            "hair_style_id": "hair7_brown",
+            "eyes_style_id": "eyes_purple"
+        },
+        {
+            "id": 2,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Katie Rhodes",
+            "ts_last_used": 0,
+            "buy_cost": 150,
+            "hair_style_id": "hair3_blond",
+            "eyes_style_id": "eyes_red"
+        },
+        {
+            "id": 3,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Geri Blank",
+            "ts_last_used": 0,
+            "buy_cost": 340,
+            "hair_style_id": "hair9_black",
+            "eyes_style_id": "eyes_green"
+        },
+        {
+            "id": 4,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Abigail Anderson",
+            "ts_last_used": 0,
+            "buy_cost": 650,
+            "hair_style_id": "hair9_pink",
+            "eyes_style_id": "eyes_green"
+        },
+        {
+            "id": 5,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Karma Cox",
+            "ts_last_used": 0,
+            "buy_cost": 2700,
+            "hair_style_id": "hair12_blue",
+            "eyes_style_id": "eyes_purple"
+        },
+        {
+            "id": 6,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Kate Randy",
+            "ts_last_used": 0,
+            "buy_cost": 12000,
+            "hair_style_id": "hair6_black",
+            "eyes_style_id": "eyes_blue"
+        },
+        {
+            "id": 7,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Janice Malkova",
+            "ts_last_used": 0,
+            "buy_cost": 54000,
+            "hair_style_id": "hair2_purple",
+            "eyes_style_id": "eyes_red"
+        },
+        {
+            "id": 8,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Tory Knox",
+            "ts_last_used": 0,
+            "buy_cost": 240000,
+            "hair_style_id": "hair11_blond",
+            "eyes_style_id": "eyes_yellow"
+        },
+        {
+            "id": 9,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Mayu Preston",
+            "ts_last_used": 0,
+            "buy_cost": 1080000,
+            "hair_style_id": "hair3_black",
+            "eyes_style_id": "eyes_green"
+        },
+        {
+            "id": 10,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Cassidy Travis",
+            "ts_last_used": 0,
+            "buy_cost": 4900000,
+            "hair_style_id": "hair1_brown",
+            "eyes_style_id": "eyes_black"
+        },
+        {
+            "id": 11,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Valentina Randy",
+            "ts_last_used": 0,
+            "buy_cost": 19799999,
+            "hair_style_id": "hair11_purple",
+            "eyes_style_id": "eyes_red"
+        },
+        {
+            "id": 12,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Nicole Noir",
+            "ts_last_used": 0,
+            "buy_cost": 88199999,
+            "hair_style_id": "hair5_blond",
+            "eyes_style_id": "eyes_blue"
+        },
+        {
+            "id": 13,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Leah Phillips",
+            "ts_last_used": 0,
+            "buy_cost": 401399999,
+            "hair_style_id": "hair2_purple",
+            "eyes_style_id": "eyes_blue"
+        },
+        {
+            "id": 14,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Jessa Wolf",
+            "ts_last_used": 0,
+            "buy_cost": 1799999999,
+            "hair_style_id": "hair9_brown",
+            "eyes_style_id": "eyes_blue"
+        },
+        {
+            "id": 15,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Melanie Gemma",
+            "ts_last_used": 0,
+            "buy_cost": 8063999999,
+            "hair_style_id": "hair10_pink",
+            "eyes_style_id": "eyes_black"
+        },
+        {
+            "id": 16,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Rain Gemma",
+            "ts_last_used": 0,
+            "buy_cost": 36540000000,
+            "hair_style_id": "hair9_purple",
+            "eyes_style_id": "eyes_yellow"
+        },
+        {
+            "id": 17,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Cherie Newton",
+            "ts_last_used": 0,
+            "buy_cost": 164339999999,
+            "hair_style_id": "hair2_blond",
+            "eyes_style_id": "eyes_yellow"
+        },
+        {
+            "id": 18,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Valentina Phoenix",
+            "ts_last_used": 0,
+            "buy_cost": 741023999999,
+            "hair_style_id": "hair1_black",
+            "eyes_style_id": "eyes_green"
+        },
+        {
+            "id": 19,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Skylar Cakes",
+            "ts_last_used": 0,
+            "buy_cost": 3331619999999,
+            "hair_style_id": "hair12_purple",
+            "eyes_style_id": "eyes_purple"
+        },
+        {
+            "id": 20,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Elsa Sin",
+            "ts_last_used": 0,
+            "buy_cost": 15014699999999,
+            "hair_style_id": "hair10_blond",
+            "eyes_style_id": "eyes_green"
+        },
+        {
+            "id": 21,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Victoria Daniels",
+            "ts_last_used": 0,
+            "buy_cost": 67528799999999,
+            "hair_style_id": "hair9_black",
+            "eyes_style_id": "eyes_black"
+        },
+        {
+            "id": 22,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Skylar Noir",
+            "ts_last_used": 0,
+            "buy_cost": 304029000000000,
+            "hair_style_id": "hair2_purple",
+            "eyes_style_id": "eyes_black"
+        },
+        {
+            "id": 23,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Rain West",
+            "ts_last_used": 0,
+            "buy_cost": 1367009999999999,
+            "hair_style_id": "hair11_brown",
+            "eyes_style_id": "eyes_red"
+        },
+        {
+            "id": 24,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Amy Starr",
+            "ts_last_used": 0,
+            "buy_cost": 6155279999999999,
+            "hair_style_id": "hair11_black",
+            "eyes_style_id": "eyes_red"
+        },
+        {
+            "id": 25,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Victoria Scott",
+            "ts_last_used": 0,
+            "buy_cost": 27713699999999996,
+            "hair_style_id": "hair6_brown",
+            "eyes_style_id": "eyes_purple"
+        },
+        {
+            "id": 26,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Daisy Bunton",
+            "ts_last_used": 0,
+            "buy_cost": 124001999999999980,
+            "hair_style_id": "hair2_brown",
+            "eyes_style_id": "eyes_green"
+        },
+        {
+            "id": 27,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Skylar Doll",
+            "ts_last_used": 0,
+            "buy_cost": 560996999999999940,
+            "hair_style_id": "hair8_pink",
+            "eyes_style_id": "eyes_brown"
+        },
+        {
+            "id": 28,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Alison Grey",
+            "ts_last_used": 0,
+            "buy_cost": 2524860000000000000,
+            "hair_style_id": "hair5_brown",
+            "eyes_style_id": "eyes_yellow"
+        },
+        {
+            "id": 29,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Taylor Hipburn",
+            "ts_last_used": 0,
+            "buy_cost": 1.1354399999999998e+19,
+            "hair_style_id": "hair15_brightpink",
+            "eyes_style_id": "eyes_red"
+        },
+        {
+            "id": 30,
+            "effect_id": 3,
+            "rarity": 3,
+            "name": "Abigail Bush",
+            "ts_last_used": 0,
+            "buy_cost": 5.109479999999999e+19,
+            "hair_style_id": "hair13_orange_coll",
+            "eyes_style_id": "eyes_purple"
+        }
+        ]
+    },
+    "tutorial_step": 14,
+    "girl_tower_boost_current": 0,
+    "girl_tower_boost_next_goal": 0,
+    "max_floor_index": 30
+}
