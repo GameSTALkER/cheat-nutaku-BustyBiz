@@ -11,7 +11,7 @@ This project is a cheat tool for the game "BustyBiz." It provides various comman
 
 ## Installation
 
-No dependencies are required for this project.
+- [Python 3.11](https://www.python.org/downloads/release/python-3110/)
 
 ## Usage
 
@@ -33,6 +33,7 @@ Here is a list of couple available commands you can use:
 - **unlockmansion**: Unlock a mansion in the game.
 - **claimdaily**: Automatically claim your daily rewards.
 - **claimbox**: Automatically claim reward boxes.
+- [**Full command list**](https://github.com/GameSTALkER/cheat-nutaku-BustyBiz/wiki/Command-list#command-list)
 
 ## Contributing
 
