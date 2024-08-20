@@ -114,8 +114,11 @@ class ConsoleCommandsInterpriter:
     def addeventclicks(self, args):
         self.client.add_event_clicks(*args)
 
-    def opengacha(self, args):
-        self.client.open_gacha(*args)
+    def claimgacha(args):
+        client.open_gacha(True, False)
+        
+    def opengacha(args):
+        client.open_gacha(False, args[0])
 
     def enterelevator(self, args):
         self.last_elevator = args[0]
