@@ -40,4 +40,4 @@ Feel free to fork this project and submit pull requests if you have any improvem
 
 ## License
 
-Project unlicensed
+The project is unlicensed
