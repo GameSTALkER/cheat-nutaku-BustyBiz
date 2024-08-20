@@ -12,6 +12,7 @@ This project is a cheat tool for the game "BustyBiz". It provides various comman
 ## Installation
 
 - [Python 3.11](https://www.python.org/downloads/release/python-3110/)
+- requests
 
 ## Usage
 
