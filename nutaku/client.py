@@ -5,7 +5,7 @@ import json
 import urllib.parse
 
 class BustyBizClient:
-    def __init__(self, nutaku_id: int, client_version: str) -> None:
+    def __init__(self, nutaku_id: int) -> None:
         '''Last edit at: 20.08.2024\n
         have fucking no protection, what you need is only nutaku id...
         '''
@@ -16,7 +16,7 @@ class BustyBizClient:
         self.logged_in = False
         self.register_if_not_exist = False
         self.allow_unsafe_functions = False
-        self.client_version = client_version
+        self.client_version = 'html5_1.74.595'
 
         self.full_data = {}
         self.user = {}
@@ -592,21 +592,36 @@ class BustyBizClient:
         '''Last edit at: 19.08.2024\n
         `floor_id`: 1-30
         '''
-        payload = self.payload(
-            action="collectTowerObjectiveReward",
-            tower_id=tower_id,
-            objective_id="reach_floor" + str(floor_id),
-            objective_key=objective_key
-        )
-        response = requests.post(
-            self.request_url, data=payload, headers=self._headers)
-        data = self._format_response(response)
+        obj_id = "reach_floor" + str(floor_id)
+        for obj in [
+            "_lvl1000",
+            "_lvl875",
+            "_lvl750",
+            "_lvl625",
+            "_lvl500",
+            "_lvl375",
+            "_lvl250",
+            "_lvl125",
+            "_lvl60",
+            "_lvl30",
+            "_lvl10",
+            "",
+        ]:
+            payload = self.payload(
+                action="collectTowerObjectiveReward",
+                tower_id=tower_id,
+                objective_id=obj_id+obj,
+                objective_key=objective_key
+            )
+            response = requests.post(
+                self.request_url, data=payload, headers=self._headers)
+            data = self._format_response(response)
 
-        if isinstance(data, str):
-            print(data)
-        else:
-
-            print("Claimed")
+            if isinstance(data, str):
+                print(data)
+                break
+            else:
+                print("Claimed")
 
     def unlock_mansion(self, building_id: str):
         '''Last edit at: 19.08.2024\n

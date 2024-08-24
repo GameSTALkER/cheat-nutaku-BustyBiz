@@ -1,7 +1,6 @@
 from client import BustyBizClient
 import json
 
-
 class ConsoleCommandsInterpriter:
     def __init__(self, client: BustyBizClient):
         self.client = client
@@ -206,7 +205,7 @@ class ConsoleCommandsInterpriter:
             current = int(raw[0])
             end = int(raw[1])
             while current <= end:
-                self.client.collect_floor_rewards(args[0], current)
+                self.client.collect_floor_rewards(args[0], current, args[2] if len(args) > 1 else 100)
                 current += 1
             return
         self.client.collect_floor_rewards(*args)

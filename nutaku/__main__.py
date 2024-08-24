@@ -1,11 +1,6 @@
 from consolecommands import ConsoleCommandsInterpriter
 from client import BustyBizClient
 
-# register_if_not_exist = False ----- Say no to global vars
-# allow_unsafe_functions = False
-# default_nutaku_id = None
-CLIENT_VERSION = 'html5_1.74.595'
-
 # TODO
 # better sync (in self._format_response)
 # fix self._enter_tower
@@ -14,7 +9,7 @@ CLIENT_VERSION = 'html5_1.74.595'
 if __name__ == "__main__":
     # client = BustyBizClient(default_nutaku_id or
     #                      input("Enter your nutaku_id > "))
-    client = BustyBizClient(input("Enter your nutaku_id > "), CLIENT_VERSION)
+    client = BustyBizClient(input("Enter your nutaku_id > "))
     console_interpriter = ConsoleCommandsInterpriter(client)
     last_elevator = None
 
