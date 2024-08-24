@@ -74,7 +74,8 @@ class ConsoleCommandsInterpriter:
     def sync(self, args):
         data = None
         if len(args) > 1 and args[1]:
-            data = json.load("./save-settings.json")
+            with open("./save-settings.json", "r", encoding="utf-8") as f:
+                data = json.load(f)
 
         self.client.sync_game(args[0], data)
 
