@@ -16,7 +16,7 @@ class BustyBizClient:
         self.logged_in = False
         self.register_if_not_exist = False
         self.allow_unsafe_functions = False
-        self.client_version = 'html5_1.74.595'
+        self.client_version = 'html5_1.74.596'
 
         self.full_data = {}
         self.user = {}
